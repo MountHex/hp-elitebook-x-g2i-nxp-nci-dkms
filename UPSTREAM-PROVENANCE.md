@@ -1,6 +1,6 @@
 # Source provenance
 
-The four DKMS package files are copied **unchanged** from the verified, installed HP EliteBook X G2i driver source snapshot dated October 2026. Their SHA-256 digests are listed in `SOURCE-MANIFEST.tsv`. They are **not** a freshly rebased Linux kernel driver.
+The four DKMS package files originate from the verified, installed HP EliteBook X G2i driver source snapshot dated October 2026. For publication, `i2c.c` includes an additional dated, comment-only modification notice; the driver logic is unchanged. Their SHA-256 digests are listed in `SOURCE-MANIFEST.tsv`. They are **not** a freshly rebased Linux kernel driver.
 
 `i2c.c` is derived from Linux `drivers/nfc/nxp-nci/i2c.c` (SPDX `GPL-2.0-only`), originally authored by Clément Perrochaud (NXP Semiconductors) and Oleg Zhurakivskyy (Intel Corporation). `nxp-nci.h` is derived from Linux `drivers/nfc/nxp-nci/nxp-nci.h` (SPDX `GPL-2.0-only`) and preserves its original notices.
 

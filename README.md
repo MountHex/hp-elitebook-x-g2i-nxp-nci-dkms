@@ -2,7 +2,7 @@
 
 This is the HP-specific NXP NFC I²C driver used on the **HP EliteBook X G2i 14-inch** running Fedora. It makes the laptop's built-in NFC controller available to Linux as a native NFC device (`nfc0`). It does not, on its own, make NFC security keys usable in browser WebAuthn prompts; that requires the separate [HP EliteBook X G2i Linux NFC Bridge](https://github.com/MountHex/hp-elitebook-x-g2i-linux-nfc-bridge).
 
-The source here is the same four-file DKMS package used on the tested laptop. It is intended for people who need the HP-specific driver rather than the standard kernel module. **Do not replace an already working driver just to follow these instructions.**
+The driver code matches the tested four-file DKMS package; `i2c.c` also includes a comment-only modification notice for publication. It is intended for people who need the HP-specific driver rather than the standard kernel module. **Do not replace an already working driver just to follow these instructions.**
 
 ## Why a separate driver?
 

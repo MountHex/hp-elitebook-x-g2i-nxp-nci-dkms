@@ -10,6 +10,9 @@
  *
  * Derived from PN544 device driver:
  * Copyright (C) 2012  Intel Corporation. All rights reserved.
+ *
+ * Modified for HP EliteBook X G2i compatibility (October 2026).
+ * HP-specific DMI/GPIO handling; see UPSTREAM-PROVENANCE.md.
  */
 
 #include <linux/acpi.h>
