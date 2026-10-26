@@ -1,0 +1,19 @@
+# Kernel/DKMS build output
+*.o
+*.ko
+*.ko.xz
+*.ko.zst
+*.mod
+*.mod.c
+*.order
+*.symvers
+.*.cmd
+.tmp_versions/
+Module.symvers
+modules.order
+# Local credentials and signing materials must never be committed
+*.key
+*.pem
+*.p12
+*.pfx
+*.der
